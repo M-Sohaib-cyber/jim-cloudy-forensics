@@ -5,7 +5,7 @@ This project demonstrates a full digital forensic investigation of a suspect, **
 The investigation focuses on identifying suspicious activity and correlating RAM artifacts with disk artifacts.
 
 ---
-
+## 🛠️ Tools Used
 | Tool                         | Purpose                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Volatility 3                 | Memory forensics (processes, network connections, browser artifacts). Can be run via CLI (Python) or with GUI frontends like **Volatility Workbench** for easier analysis. |
