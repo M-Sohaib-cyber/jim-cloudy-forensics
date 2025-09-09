@@ -18,7 +18,8 @@ The investigation focuses on identifying suspicious activity and correlating RAM
 ---
 
 ## 🔗 Full Report
-The complete forensic report can be viewed or downloaded here: [Investigation Report](reports/investigation_report.docx)
+You can view or download the full investigation report here:  
+[Download the full investigation report](reports/investigation_report.docx)
 
 ---
 
