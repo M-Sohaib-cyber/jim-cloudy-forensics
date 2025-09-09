@@ -14,9 +14,24 @@ The investigation focuses on identifying suspicious activity and correlating RAM
 | Python 3.11                  | Helper scripts for parsing outputs.                                                                                                                                        |
 | Windows 10 RAM & Disk Images | Evidence for analysis.                                                                                                                                                     |
 
+## 🔍 Volatility 3 CLI Examples
+
+Here are some basic commands you can run using Volatility 3 CLI:
+
+# List all processes in memory
+python3 vol.py -f memory.dmp windows.pslist
+
+# Scan network connections
+python3 vol.py -f memory.dmp windows.netscan
+
+# Extract Chrome cookies
+python3 vol.py -f memory.dmp windows.chromecookies
+
+# Extract Chrome history
+python3 vol.py -f memory.dmp windows.chromehistory
 
 ---
-
+## 📂 Project Structure
 ```
 jim-cloudy-forensics/
 ├─ Reports/
