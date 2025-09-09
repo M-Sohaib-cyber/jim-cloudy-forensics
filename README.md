@@ -27,7 +27,6 @@ jim-cloudy-forensics/
 ```
 
 ## 🔗 Full Report
-You can view or download the full investigation report here:  
 [Download the full investigation report](Reports/investigation_report.docx)
 
 ---
