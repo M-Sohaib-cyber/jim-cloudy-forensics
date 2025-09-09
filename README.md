@@ -6,14 +6,14 @@ The investigation focuses on identifying suspicious activity and correlating RAM
 
 ---
 
-## 🛠️ Tools Used
-| Tool | Purpose |
-|------|---------|
-| Volatility 3 | Memory forensics (processes, network connections, browser artifacts) |
-| Autopsy / Registry Viewer | Disk analysis and metadata extraction |
-| ChromeCacheView | Browser cache and history analysis |
-| Python 3.11 | Helper scripts for parsing output |
-| Windows 10 RAM & Disk Images | Evidence for analysis |
+| Tool                         | Purpose                                                                                                                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Volatility 3                 | Memory forensics (processes, network connections, browser artifacts). Can be run via CLI (Python) or with GUI frontends like **Volatility Workbench** for easier analysis. |
+| Autopsy                      | Disk analysis and metadata extraction. GUI-based, user-friendly for browsing file system, extracting metadata, and generating reports.                                     |
+| ChromeCacheView              | Extract browser cache and history.                                                                                                                                         |
+| Python 3.11                  | Helper scripts for parsing outputs.                                                                                                                                        |
+| Windows 10 RAM & Disk Images | Evidence for analysis.                                                                                                                                                     |
+
 
 ---
 
