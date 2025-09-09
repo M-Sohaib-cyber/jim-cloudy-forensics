@@ -36,3 +36,44 @@ The investigation focuses on identifying suspicious activity and correlating RAM
 ---
 
 ## 📂 Project Structure
+jim-cloudy-forensics/
+├─ findings/ # Screenshots of Volatility and Autopsy outputs
+├─ reports/ # Forensic summary (PDF/Markdown)
+├─ scripts/ # Helper Python scripts
+└─ README.md # Project overview
+
+---
+
+## 🖼️ Visual Evidence
+![Process List](findings/pslist_screenshot.png)  
+*Screenshot of suspicious processes found in RAM.*
+
+![Browser Cache](findings/chrome_cache_screenshot.png)  
+*Extracted Chrome browser artifacts.*
+
+---
+
+## 🚀 How to Run (Volatility 3 Examples)
+```bash
+# List processes
+python3 vol.py -f memory.dmp windows.pslist
+
+# Scan network connections
+python3 vol.py -f memory.dmp windows.netscan
+
+# Extract Chrome cookies
+python3 vol.py -f memory.dmp windows.chromecookies
+
+📖 Lessons Learned
+Correlating RAM and disk artifacts improves evidence reliability.
+
+Practiced professional forensic documentation.
+
+Gained experience with Volatility 3, Autopsy, and browser artifact analysis.
+
+Learned the importance of linking user activity across multiple evidence sources.
+
+🔗 Notes
+Repository is educational only.
+
+All evidence used is from a simulated forensic scenario.
