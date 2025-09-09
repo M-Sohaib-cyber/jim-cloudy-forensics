@@ -16,18 +16,19 @@ The investigation focuses on identifying suspicious activity and correlating RAM
 | Windows 10 RAM & Disk Images | Evidence for analysis |
 
 ---
-'''
+
+```
 jim-cloudy-forensics/
 ├─ Reports/
 │ └─ investigation_report.docx
 ├─ findings/ # Placeholder for future screenshots
 ├─ scripts/ # Placeholder for future scripts
 └─ README.md
-'''
+```
 
 ## 🔗 Full Report
 You can view or download the full investigation report here:  
-[Download the full investigation report](reports/investigation_report.docx)
+[Download the full investigation report](Reports/investigation_report.docx)
 
 ---
 
